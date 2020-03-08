@@ -19,6 +19,4 @@ public class RecipesResponse {
     private long expires;
     @JsonProperty("isStale")
     private boolean stale;
-
-
 }
