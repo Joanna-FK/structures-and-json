@@ -1,4 +1,4 @@
-package com.jgdy4.jason.zad1;
+package com.jgdy4.json.zad1;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;

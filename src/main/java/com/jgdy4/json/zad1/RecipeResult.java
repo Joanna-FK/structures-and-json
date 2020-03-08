@@ -1,4 +1,4 @@
-package com.jgdy4.jason.zad1;
+package com.jgdy4.json.zad1;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
