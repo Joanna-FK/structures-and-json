@@ -13,9 +13,10 @@ public class OfertaComparator implements Comparator <OfertaSprzedazy> {
     @Override
     public int compare(OfertaSprzedazy o1, OfertaSprzedazy o2) {
         if (malejaco) {
-            return Double.compare(o1.getCena(), o2.getCena());
-        } else {
             return Double.compare(o2.getCena(), o1.getCena());
+        } else {
+            return Double.compare(o1.getCena(), o2.getCena());
         }
+       // return (Double.compare(o1.getCena(), o2.getCena()) * (malejaco ? 1 : -1));
     }
 }
