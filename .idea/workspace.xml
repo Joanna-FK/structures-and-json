@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2376985-26a2-478b-a6e7-eab5e9616c8f" name="Default Changelist" comment="">
+    <list default="true" id="b2376985-26a2-478b-a6e7-eab5e9616c8f" name="Default Changelist" comment="commit initial json zad1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ingredients.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menuItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/person.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recipies.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgdy4/json/api/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jgdy4/json/api/PriceOfGold.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jgdy4/structures/zad1/MainComparable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jgdy4/structures/zad1/MainComparable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/jgdy4/structures/zad2/OfertaSprzedazy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/jgdy4/structures/zad2/OfertaSprzedazy.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +53,80 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cp24\IdeaProjects\com.jgdy4\target" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgdy4.json.api.Main" />
+      <module name="com.jgdy4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgdy4.json.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgdy4.json.Main" />
+      <module name="com.jgdy4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgdy4.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgdy4.json.zad1.Main2" />
+      <module name="com.jgdy4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgdy4.json.zad1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgdy4.json.zad3.Main3" />
+      <module name="com.jgdy4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgdy4.json.zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jgdy4.json.zad2.Main" />
+      <module name="com.jgdy4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jgdy4.json.zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jgdy4.structures.zad1.MainComparable" />
       <module name="com.jgdy4" />
@@ -60,7 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainComparable" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -115,31 +201,107 @@
       <option name="project" value="LOCAL" />
       <updated>1583663962494</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit initial">
+      <created>1583664505153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583664505153</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit initial json zad1">
+      <created>1583667836171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583667836171</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit initial json zad3">
+      <created>1583669636974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583669636974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit initial json zad2">
+      <created>1583674388848</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583674388848</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit initial json zad2">
+      <created>1583674400821</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583674400821</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit initial json zad3">
+      <created>1583674437791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583674437791</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit initial json zad1">
+      <created>1583674479946</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583674479946</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit  json exercise">
+      <created>1583675036643</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583675036643</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit zad2" />
     <MESSAGE value="commit zad1" />
     <MESSAGE value="commit initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit initial" />
+    <MESSAGE value="commit initial json zad2" />
+    <MESSAGE value="commit initial json zad3" />
+    <MESSAGE value="commit initial json zad1" />
+    <MESSAGE value="commit  json exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit  json exercise" />
   </component>
   <component name="WindowStateProjectService">
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1583663093447">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1583663093447" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1583663961630">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1583677394117">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583663961630" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1583677394117" />
     <state x="463" y="104" key="FileChooserDialogImpl" timestamp="1583663689413">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="104" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583663689413" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583664492395">
+    <state width="661" height="146" key="GridCell.Tab.0.bottom" timestamp="1583676941276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583664492395" />
+    <state width="661" height="146" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583676941276" />
+    <state width="661" height="146" key="GridCell.Tab.0.center" timestamp="1583676941276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="146" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583676941276" />
+    <state width="661" height="146" key="GridCell.Tab.0.left" timestamp="1583676941276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="146" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583676941276" />
+    <state width="661" height="146" key="GridCell.Tab.0.right" timestamp="1583676941276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="661" height="146" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583676941276" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1583674502666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1583674502666" />
   </component>
 </project>
