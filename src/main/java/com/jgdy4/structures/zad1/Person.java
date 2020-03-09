@@ -10,7 +10,7 @@ import java.util.Comparator;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Person {
+public class Person implements Comparable<Person>{
     private String name;
     private String surname;
     private int age;
